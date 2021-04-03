@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    position: absolute;
+    width: 224px;
+    height: 150%;
+    left: 0px;
+    top: 0px;
+    background:#030303;
+}
+
+.area{
+    position: absolute;
+    display: inline-block;
+    height: 150%;
+    width: 95%;
+    left: 224px;
+    padding: 1px;
+    right: 0px;
+    top: 0;
+    /*padding-top: 100px;*/
+    /*overflow-y: scroll;*/
+    background: linear-gradient(113.83deg, #121212 0.59%, #121212 99.74%);
+
+}
+
+.logo{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 15px;
+    left: 0.81%;
+    right: 0.71%;
+    top: 1.18%;
+    bottom: 0.29%;
+}
+
+.preferences{
+    position: absolute;
+    left: 5%;
+    right: 7.3%;
+    top: 2.2%;
+    bottom: 2.5%;
+    padding-top: 70px;
+}
+
+.preferences li{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.preferences img{
+    position: relative;
+    left: -25px;
+    right: 7%;
+    top: 3%;
+    bottom: 2.5%;
+}
+
+
+.preferences li a{
+    text-decoration: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.preferences li:hover a{
+    opacity:1;
+}
+
+.list{
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    left: 24px;
+    top: 373px;
+}
+
+.list span{
+    position: absolute;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.6;
+    bottom: 30px;
+}
+
+.list .search{
+    position: absolute;
+    width: 176.77px;
+    height: 34.87px;
+    background: #2e2c2c;
+    border-radius: 18px;
+    outline: none;
+}
+
+input{
+    background-color: #2e2c2c;
+}
+
+.list .img1{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.list .filter{
+    position: absolute;
+    left: 85.86%;
+    right: 15.86%;
+    top: 28.86%;
+    bottom: 23.86%;
+    width: 15px;
+    height: 15px;
+}
+
+
+.list .searchText{
+    position: absolute;
+    width: 140px;
+    height: 17px;
+    left: 20px;
+    top:8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    border: none;
+}
+
+.list ul{
+    position: absolute;
+    top: 40px;
+}
+
+.list li{
+    list-style: none;
+    left: 1px;
+    padding-top: 10px;
+}
+.list li a{
+    position: relative;
+    width: 150px;
+    text-decoration: none;
+    height: 18px;
+    left: -40px;
+    top: 0px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.list a img{
+    position: absolute;
+    width: 10px;
+    height: 17px;
+    right: 19px;
+    top: 460px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    visibility: visible;
+}
+
+.topSearch .leftArrow{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 32px;
+    top: 32px;
+    background: #030303;
+    border-radius: 50%;
+}
+
+.topSearch .leftArrow img{
+    position: absolute;
+    left: 20.46%;
+    right: 20.46%;
+    top: 5.5%;
+    padding: 8px;
+    padding-top: 10px;
+    bottom: 0.5%;
+    opacity: 1;
+}
+
+.topSearch .rightArrow{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 80px;
+    top: 32px;
+    background: #030303;
+    border-radius: 50%;
+}
+
+.topSearch .rightArrow img{
+    position: absolute;
+    left: 20.46%;
+    right: 2.46%;
+    top: 5.5%;
+    padding: 8px;
+    padding-top: 10px;
+    bottom: 0.5%;
+    opacity: 1;
+}
+
+.areaSearch{
+    position: absolute;
+    width: 265.26px;
+    height: 34.87px;
+    left: 137px;
+    top: 30.56px;
+    background-color: #222121;
+    border-radius: 18px;
+    outline: none;
+}
+
+.areaSearch .img1{
+    position: absolute;
+    left: 4.32%;
+    right: 6.32%;
+    top: 25.5%;
+    bottom: 2.5%;
+    opacity: 0.8;
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.areaSearch .searchText{
+    position: absolute;
+    width: 200px;
+    height: 17px;
+    left: 33px;
+    top: 7px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    background-color:#222121;
+    opacity: 1;
+    color: white;
+    outline: none;
+    border: none;
+    opacity: .5;
+}
+
+.profile{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    height: 40px;
+    width: 203px;
+    background: #222121;
+    border-radius: 27px;
+}
+
+.profile img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 7px;
+    top: 8px;
+}
+
+.area .profile span{
+    position: absolute;
+    width: 139px;
+    height: 17px;
+    left: 39px;
+    top: 11px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fcfcfc;
+    opacity: 0.6;
+}
+
+
+.area span{
+    position: absolute;
+    width: 206px;
+    height: 34px;
+    left: 34px;
+    top: 120px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.musicCard,
+.musicCard2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-right: 30px;
+    width:  200px;
+    height: 290px;
+    left: 260px;
+    top: 100px;
+    background: #272626;
+    border-radius: 10px;
+    margin-top: 100px;
+
+} 
+
+.musicCard{
+    bottom: 20px;
+}
+
+.musicCard2{
+    padding-top: 30px;
+}
+
+.musicCard .green,
+.musicCard2 .green{
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #66D36E;
+    margin-left: 145px;
+    box-shadow: 5px 5px 26px 5px #000000;
+    bottom: -30px;
+    visibility: hidden;
+}
+
+.musicCard:hover .green,
+.musicCard2:hover .green{
+    visibility: visible;
+}
+
+.musicCard .green img,
+.musicCard2 .green img{
+    top: -3px;
+    height: 20px;
+    width: 20px;
+}
+
+.musicCard img,
+.musicCard2 img{
+    position: relative;
+    width: 85%;
+    padding: 15px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.6));
+}
+
+.musicCard-info,
+.musicCard2-info{
+    display: flex;
+    letter-spacing: 0.5px;
+}
+
+.musicCard2-info span,
+.musicCard2-info span{
+    position: relative;
+    top: -10px;
+    left: 15px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.musicCard-info p,
+.musicCard2-info p{
+    position: absolute;
+    height: 10px;
+    padding-left: 17px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+
+
+
+.musicSecondArea{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.musicSecondArea span{
+    position: absolute;
+    padding-top: 10px;
+    left: 34px;
+    top: 530px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+
+.musicSecondArea p{
+    position: absolute;
+    width: 193px;
+    height: 17px;
+    left: 34px;
+    top: 570px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.musicSecondArea .musicCard{
+    position: absolute;
+    margin-top:620px ;
+    margin-left: 30px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #222121;
+    border-radius: 10px;
+
+}
+
+.musicSecondArea .musicCard-info span{
+    position: absolute;
+    width: 171px;
+    height: 18px;
+    left: 16px;
+    top: 183px;
+    font-size: 14px;
+}
+
+.musicSecondArea .musicCard-info p{
+    position: absolute;
+    height: 30px;
+    left: 0;
+    right: 16px;
+    top: 214px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.listeningBar{
+    position: fixed;
+    width:100%;
+    left: 0;
+    height: 96px;
+    bottom: 0;
+    background: #282828;
+    box-shadow: 0px -1px 0px #000000;
+    z-index: 10;
+}
+
+.listeningBar .musicProfile .img1{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 24px;
+    top: calc(50% - 48px/2);
+}
+
+.listeningBar .musicProfile{
+    position: absolute;
+}
+
+.listeningBar .musicProfile .header{
+    position: relative;
+    width: 107px;
+    height: 17px;
+    padding-top: 15px;
+    top: calc(50% - 17px/2 - 15.5px);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+
+.listeningBar .musicProfile p{
+    position: relative;
+    width: 48px;
+    height: 14px;
+    left: 88px;
+    top: calc(50% - 14px/2 );
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.listeningBar .box .like{
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    left: 230px;
+    top: 40px;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.listeningBar .box .square{
+    position: absolute;
+    padding-left: 210px;
+    padding-top: 40px;
+    left: 40.5%;
+    right: 2.5%;
+    top: 1.38%;
+    bottom: 18.37%;
+    opacity: 1;
+}
+
+.listeningBar .videoBar .leftVideo .bar1{
+    position: absolute;
+    left: 43.61%;
+    right: 71.43%;
+    top: 16.91%;
+    bottom: -76.92%;
+    background: #FFFFFF;
+}
+
+.listeningBar .videoBar .leftVideo .bar2{
+    position: absolute;
+    left: 43.74%;
+    right: 73.42%;
+    top: 16%;
+    bottom: -92.5%;
+}
+
+.listeningBar .videoBar .square .ellipse{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: calc(50% - 50px/2);
+    bottom: 55px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.listeningBar .videoBar .square .right{
+    position: absolute;
+    left: 49.25%;
+    right: 8.86%;
+    top: 16.5%;
+    bottom: 2.5%;
+}
+
+.listeningBar .videoBar .rightVideo .bar3{
+    position: absolute;
+    left: 54.4%;
+    right: 8.86%;
+    top: 14.5%;
+    bottom: 2.5%;
+}
+
+.listeningBar .videoBar .rightVideo .bar4{
+    position: absolute;
+    left: 55.11%;
+    right: 0%;
+    top: 15.9%;
+    bottom: 7.69%;
+}
+
+.listeningBar .trackBar .start{
+    position: absolute;
+    width: 31px;
+    height: 14px;
+    left: calc(50% - 31px/2 - 273.5px);
+    bottom: 21px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.listeningBar .trackBar .bar{
+    position: absolute;
+    width: 496px;
+    height: 6px;
+    left: calc(50% - 496px/2);
+    bottom: 37px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 5px;
+}
+
+.listeningBar .trackBar .end{
+    position: absolute;
+    width: 31px;
+    height: 14px;
+    left: calc(50% - 31px/2 + 271.5px);
+    bottom: 21px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+
+
+
+
